@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useRef} from "react"
 import MenuItems from "./MenuItems"
 import styled from "styled-components"
 
@@ -46,14 +46,16 @@ const StyledProjectsContainer = styled.nav`
 `
 
 const Menu = () => {
+  const projectsRef = useRef()
   return (
     <StyledProjectsContainer>
-      <div className='project__wrapper'>
+      <div className='project__wrapper' ref={projectsRef}>
         {projects.map((project) => (
           <MenuItems
             key={project.id}
             name={project.name}
             images={project.images}
+            projectsRef={projectsRef}
           ></MenuItems>
         ))}
       </div>
