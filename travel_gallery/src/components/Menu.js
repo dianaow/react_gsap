@@ -6,27 +6,27 @@ const projects = [
   {
     id: 1,
     name: 'London',
-    images: []
+    images: ['london1.jpg', 'london2.jpg', 'london3.jpg', 'london4.jpg', 'london5.jpg', 'london6.jpg']
   },
   {
     id: 2,
     name: 'Amsterdam',
-    images: []
+    images: ['amsterdam1.jpg', 'amsterdam2.jpg', 'amsterdam3.jpg']
   },
   {
     id: 3,
     name: 'Paris',
-    images: []
+    images: ['paris1.jpg', 'paris2.jpg', 'paris3.jpg', 'paris4.jpg', 'paris5.jpg', 'paris6.jpg']
   },
   {
     id: 4,
     name: 'Osaka',
-    images: []
+    images: ['osaka1.jpg', 'osaka2.jpg', 'osaka3.jpg', 'osaka4.jpg', 'osaka5.jpg', 'osaka6.jpg']
   },
   {
     id: 5,
     name: 'Kyoto',
-    images: []
+    images: ['kyoto1.jpg', 'kyoto2.jpg', 'kyoto3.jpg', 'kyoto4.jpg']
   }
 ]
 
